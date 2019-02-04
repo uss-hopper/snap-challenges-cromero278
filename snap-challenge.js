@@ -3,10 +3,10 @@ let string = "Fate protects fools, little children and ships named Enterprise. Y
 
 
 let arr = string.split(" ");
-	arr = arr.filter((arr) => arr.startsWith("f"));
+	startsWithF = arr.filter((arr) => arr.startsWith("f"));
 
 
-console.log(arr);
+console.log(startsWithF);
 
 /*const users = [
 	{
